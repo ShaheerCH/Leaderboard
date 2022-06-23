@@ -1,5 +1,4 @@
-const reqScoreURL =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/jgweTJ0igN7L9TDWGyrr/scores/';
+const reqScoreURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/jgweTJ0igN7L9TDWGyrr/scores/';
 const ScoreURL = new Request(reqScoreURL);
 
 const loadLeaderBoard = async (callBack) => {
