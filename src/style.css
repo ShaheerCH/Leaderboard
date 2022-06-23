@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 30px 30px;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 45px;
+  color: #df0c0c;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  color: #df0c0c;
+}
+
+main,
+.recent-scores,
+form {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 15px;
+}
+
+button {
+  padding: 12px;
+  background-color: #df0c0c;
+  font-size: 14px;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #df0c0c;
+  border: 2px solid #df0c0c;
+}
+
+main {
+  width: 80%;
+  padding: 30px 10px;
+}
+
+.recent-scores,
+form {
+  width: 45%;
+  padding: 10px 20px;
+}
+
+.leaderboard {
+  list-style: none;
+  max-height: 50vh;
+  overflow-y: auto;
+  border: 2px solid rgb(3, 3, 3);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+.leaderboard,
+.form-input,
+.leaders {
+  width: 100%;
+}
+
+.form-input,
+.leaders {
+  padding: 12px;
+}
+
+.leaders:nth-child(even) {
+  background-color: #dfdfdf;
+}
+
+.btn-submit {
+  margin-right: 0;
+  margin-left: auto;
+}
